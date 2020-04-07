@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Roboto+Mono:ital,wght@1,700&family=Spicy+Rice&display=swap');
+@import url('https://colorhunt.co/palette/179675');
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: 179675;
+}
+
+h1 {
+  font: 100px Spicy Rice;
+  color: white;
+}
+
+h2 {
+  font: bold 14px Anton;
+  color: white;
+}
+
+#aboutus {
+  font: 50px Anton;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  background-color: black;
+  padding-bottom: 20px;
+}
+.flex-container > div {
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  font: bold Anton;
+  flex: 1;
+}
+.side {
+  background-color: 179675;
+  border: 3px white;
+  color: white;
+  text-align: justify;
+  border-radius: 12px;
+  font: bold Anton;
+}
+.one {
+  flex: 1;
+  padding: 10px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-basis: auto;
+}
+#big_wrapper {
+  max-width: 100%;
+  margin: 20px 0px;
+  flex-direction: row;
+  flex: 1;
+  border: 3px solid black;
+  background-color: black;
+}
+
+header,
+section,
+footer,
+nav,
+article,
+hgroup {
+  display: block;
+}
+nav {
+  width: 500px;
+  float: left;
+  font-size: 100px;
+}
+
+#side_menu li {
+  display: list-item;
+  color: black;
+  list-style: none;
+  padding: 10px;
+  font: bold 100px anton;
+  background-color: black;
+  align-self: auto;
+  border: 10px;
+  width: 500px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+.products {
+  display: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: black;
+  padding-left: 100px;
+}
+.grid-item {
+  background-color: whitesmoke;
+  border: 10px solid rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  font-size: 75px;
+  text-align: center;
+  font: bold Anton;
+}
+h5 {
+  font-size: 100px;
+  font-weight: 700;
+  font: bold Anton;
+}
+h4 {
+  font-size: 100px;
+  font-weight: 700;
+
+  font: bold Anton;
+  background-color: grey;
+  border: 3px white solid bold;
+  border-radius: 5px;
+}
+
+#content-wrap {
+  padding-bottom: 1.5em;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  position: static;
+
+  width: 100%;
+  font-size: 100px;
+  z-index: -1;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 10px old solid maroon;
+}
+p.foot {
+  text-align: left;
+}
+
+form {
+  border: 10px solid maroon;
+}
+#message {
+  width: auto;
+  height: 200px;
+  font-size: 50px;
+}
+#foot {
+  height: 20px;
+  border-top: 3px solid maroon;
+  text-align: center;
+}
+
+.complaints {
+  width: 100%;
+  height: 100%;
+}
+
+#contacts {
+  height: 100%;
+}

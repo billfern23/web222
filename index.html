@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <div id="whole-container">
+    <div id="content-wrap">
+      <div id="big_wrapper">
+        <div class="flex-container">
+          <div class="one">
+            <img src="images/logo.png" alt="logo" style="width: 700px;height: 500px;" />
+          </div>
+          <div id="topheader">
+            <h1>Welcome to Clothing sins</h1>
+
+            <p id="aboutus">
+              About us<br />
+              We hav been selling risky fashion clothes since 2003. Shop with us to live on the wild
+              side. $10 including tax.
+            </p>
+          </div>
+
+          <div class="Contact">
+            <a
+              class="contact"
+              href="contact.html"
+              style="font-size: 100px; background-color: grey; border-radius: 10%;"
+              >Contact</a
+            >
+          </div>
+        </div>
+
+        <main>
+          <nav id="side_menu">
+            <ul>
+              <li>
+                <button
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                  onclick="product(men)"
+                >
+                  Men
+                </button>
+              </li>
+
+              <li>
+                <button
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                  onclick="product(Woman)"
+                >
+                  Woman
+                </button>
+              </li>
+
+              <li>
+                <button
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                  onclick="showall()"
+                >
+                  All
+                </button>
+              </li>
+            </ul>
+          </nav>
+
+          <div id="men" class="products">
+            <div class="grid-container">
+              <div class="grid-item">
+                <h5>The Man</h5>
+                <img
+                  src="images/men.PNG"
+                  alt="Man-logo"
+                  style="width: 300px;height: 400px; border: black solid 10px "
+                />
+                <h5>Get your Gear!!! (10 Bux everything)</h5>
+              </div>
+              <div class="grid-item">
+                <h5>Cool Sweater</h5>
+                <img
+                  src="images/sweater.jpeg.png"
+                  alt="sweater"
+                  style="width: 300px;height: 300px;  border: black solid 10px"
+                />
+                <h5>The Classic Man sweater</h5>
+                <p><b>The perfect christmas gift</b></p>
+                Sweater for the man <br />
+                Details: This sweater is worn by guys who are sophisticated and groovy. <br /><b>
+                  Best seller</b
+                >
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+
+                <script></script>
+              </div>
+
+              <div class="grid-item">
+                <h5>Invisible Shorts</h5>
+                <img
+                  src="images/invisible.png"
+                  alt="shorts"
+                  style="width: 300px;height: 300px; border: black solid 10px"
+                />
+                <h5>The invisible look</h5>
+                <p><b>The Army 101 shorts</b></p>
+                <br />
+                Details: This pair of shorts are a perfect camouflage, wear this and no one will
+                look at you.
+                <br /><b
+                  >Important: This is for a unique customer, not everyone can pull this off.
+                </b>
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+
+              <div class="grid-item">
+                <h5>Dad T-shirt</h5>
+                <img
+                  src="images/Dad.jpg"
+                  alt="dad"
+                  style="width: 300px;height: 300px; border: black solid 10px "
+                />
+                <h5>The Daily driver</h5>
+                <p><b>We have clothing for everyone.</b></p>
+                Mens polo shirt<br />
+                Details: Buy this if you are a dad and want to look the part. This shirt goes well
+                for meetings, on the golf course, race tracks, even daily shopping. You might want
+                to get at least three pairs, cause chances are you will love them.
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+
+              <div class="grid-item">
+                <h5>Mob pants</h5>
+                <img
+                  src="images/fast.JPG"
+                  alt="pants"
+                  style="width: 300px;height: 300px; border: black solid 10px "
+                />
+                <h5>Track pants</h5>
+                <p><b>They will make you faster.</b></p>
+                Wonder why some bosses wear track pants <br />
+                Details: Order this and you will know the untold truth. These pants make you faster
+                and smarter. <b>Buy back guarantee</b>
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+
+              <div class="grid-item">
+                <h5>Shirt</h5>
+                <img
+                  src="images/Interesting.JPG"
+                  alt="shirt"
+                  style="width: 300px;height: 300px; border: black solid 10px "
+                />
+                <h5>Clean shirt</h5>
+                <p><b>Want the attention on yourself in the club</b></p>
+                Purple shirts<br />
+                Details: The word is in, purple is the new black. Go up to the bouncer wearing this
+                shirt, he\she wont have any choice but to let you in. Also tell them you are a time
+                traveller for extra sins.
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div id="Woman" class="products">
+            <div class="grid-container">
+              <div class="grid-item">
+                <h5>Woman's wear</h5>
+                <img src="images/woman.PNG" alt="woman-logo" style="width:300px;height: 300px;" />
+                <p>Dresses and tops</p>
+              </div>
+              <div class="grid-item">
+                <h5>Womans wear</h5>
+                <img src="images/peach.PNG" alt="peaches" style="width: 300px;height: 300px; " />
+                <h5>Woman's peach top</h5>
+                <p><b>Good top for work</b></p>
+                Details:Ever had the question, if this outfit is work appropriate, This top will put
+                that question to rest. <b>Buy back guarantee</b>
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+
+              <div class="grid-item">
+                <h5>Woman's wear</h5>
+                <img src="images/hotdate.PNG" alt="hotdate" style="width: 300px; height: 300px;" />
+                <h5>Low cut top</h5>
+                <p><b>A top you wear on the first date</b></p>
+                Details:This top is cute. It is not to flashy and you cant go wrong with $10.
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+
+              <div class="grid-item">
+                <h5>Woman's wear</h5>
+                <img
+                  src="images/workappriate.PNG"
+                  alt="work"
+                  style="width: 300px;height: 300px; "
+                />
+                <h5>Work appropriate</h5>
+                <p><b>Over clothes type sweater</b></p>
+                Details:This is a perfect for an office accessory, or just going to the mall. It
+                works with almost any color top. It is not the cutest thing but I believe you can
+                make this work.
+                <b>Price: $10 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+              <div class="grid-item">
+                <h5>Woman's wear</h5>
+                <img src="images/dog.PNG" alt="dog" style="width: 300px;height: 300px; " />
+                <h5>Sweater for the park</h5>
+                <p><b>Sweater for the everyday use</b></p>
+                Details:This black sweater gives you the steve jobs look. If you are in the park or
+                walking around, everybody will look at you differently. Also it is hair repellent,
+                so it is pet friendly.
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+              <div class="grid-item">
+                <h5>Woman's wear</h5>
+                <img
+                  src="images/graduation.PNG"
+                  alt="graduation"
+                  style="width: 300px;height: 300px; "
+                />
+                <h5>Green Womans top</h5>
+                <p><b>A top that says job well done</b></p>
+                Details:This top you can buy for someone who is graduating, it has ribbons from the
+                neck that make it look like a professional top.
+                <b>Price: $10.00 </b>
+                <input
+                  type="button"
+                  value="Add to cart"
+                  style=" width: 500px; height: 200px; background-color: grey; font-size: 100px;"
+                />
+              </div>
+            </div>
+          </div>
+        </main>
+
+        <footer id="foot">
+          <p class="foot"></p>
+          <p><b>Clothing sins </b></p>
+          Contact Me<b>(The boss)</b>
+
+          <div class="Contact">
+            <a class="contact" href="contact.html" style="font-size: 100px;"
+              >Contact The boss click here
+            </a>
+          </div>
+
+          <form action="https://formspree.io/xrgaboja" method="POST" id="forms">
+            <h2>Sign up</h2>
+            <label>
+              Sign up with your email:
+              <input
+                type="text"
+                name="_replyto"
+                style="width: auto; height: 100px; font-size: 50px;"
+              />
+            </label>
+            <br />
+            <label>
+              Your message:
+              <textarea id="message"></textarea>
+            </label>
+            <button type="submit" style="width: auto; height: 100px; font-size: 50px;">Send</button>
+          </form>
+        </footer>
+      </div>
+    </div>
+  </div>
+</html>
