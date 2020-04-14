@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Roboto+Mono:ital,wght@1,700&family=Spicy+Rice&display=swap');
 @import url('https://colorhunt.co/palette/179675');
+@media only screen and (max-width:620px) {
+  			/* For mobile phones: */
+  			.menu, .main, .right, aside, .ads, .container{
+    			width:100%;
+ 		 }
+		  }
 * {
   margin: 0px;
   padding: 0px;
